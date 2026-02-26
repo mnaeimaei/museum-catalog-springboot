@@ -1,0 +1,62 @@
+########################################
+# Java / Maven
+########################################
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven target directory
+**/target/
+
+# Maven wrapper jar (keep the scripts, ignore only .jar)
+.mvn/wrapper/maven-wrapper.jar
+
+########################################
+# IDE Files
+########################################
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+########################################
+# OS Files
+########################################
+
+# Mac
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+
+########################################
+# Environment / Secrets
+########################################
+
+# Application secrets
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Env files
+.env
+.env.*
+
+########################################
+# Logs
+########################################
+logs/
